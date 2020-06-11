@@ -1,0 +1,52 @@
+.rating-stars ul {
+    list-style-type:none;
+    padding:0;
+
+    -moz-user-select:none;
+    -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+    display:inline-block;
+
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+    font-size:2.5em; /* Change the size of the stars */
+    color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa , .ster{
+    color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+    color:#FF912C;
+}
+
+
+.clearfix {
+    clear:both;
+}
+
+.success-box, .success-box2 {
+    margin:50px 0;
+    padding:10px 10px;
+    border:1px solid #ced4da;
+    background:#fff;
+}
+
+.success-box > div, .success-box2 > div {
+    vertical-align:top;
+    display:inline-block;
+    color:#495057;
+}
+
+/* google map *********************************************************************/
+
+#googleMap{
+    height: 500px;
+    width: 500px;
+}
